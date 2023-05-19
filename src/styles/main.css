@@ -1,0 +1,91 @@
+.main {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.loader {
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #fa008e2f;
+  border-right: 10px solid #fa008e2f;
+  border-bottom: 10px solid #edb2d46a;
+  border-left: 10px solid #edb2d470;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.main-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(234, 111, 158, 0.138);
+  border-radius: 6px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+  padding: 15px;
+}
+.main-title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+.main-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 7px 10px;
+  font-size: 18px;
+  margin-bottom: 40px;
+  background-color: rgba(234, 111, 158, 0.407);
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  border-radius: 6px;
+  box-shadow: rgba(201, 99, 138, 0.407) 3px 5px 5px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
+
+.user-name {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.link {
+  padding: 7px 8px;
+  background-color: rgba(234, 111, 158, 0.233);
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  border-radius: 6px;
+  box-shadow: rgba(201, 99, 138, 0.407) 3px 5px 5px;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  transform: scale(0.98);
+}

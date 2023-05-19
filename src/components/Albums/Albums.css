@@ -1,0 +1,10 @@
+.album-title {
+  font-weight: 500;
+  font-style: italic;
+  margin-right: 5px;
+}
+
+.album-text {
+  text-align: center;
+  margin-right: 5px;
+}

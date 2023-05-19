@@ -1,0 +1,16 @@
+.photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 7px;
+}
+
+.img {
+  width: 200px;
+}
+
+.img-text {
+  text-align: center;
+  margin-top: 10px;
+}
